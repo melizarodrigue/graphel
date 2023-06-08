@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F4F4F4;
+    font-family: 'Roboto', sans-serif;
+}
+.menu {
+    background-color: #24282B;
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    
+}
+.menu div{
+    float: left;
+    width: 40%;
+    margin-right: 130px;
+    margin-left: 20px;
+    padding: 10px 30px 10px 70px;
+    font-size: 22px;
+
+}
+.menu ul {
+    width: 60%;
+    margin: auto;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+.menu li {
+    padding: 5px 10px;
+    display: inline-block;
+}
+.menu b{
+    color: #1293D4;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu li a:hover{
+    color: #1293D4;
+    transition: 1s;
+}
+.separador{
+    background: #1293D4;
+    height: 3px;
+}
+.encabezado{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/cabecera.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+.centrar {
+    width: 100%;
+    padding: 0 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #fff;
+    
+}
+.centrar h1{
+    font-family: 'Geologica', sans-serif;
+    font-size: 35px;
+    padding: 15px;
+}
+.centrar div{
+    font-size: 15px;
+    margin: auto;
+    width: 60%;
+}
+.suscribete{
+    width: 100%;
+    background: #24282B;
+    color: #fff;
+    padding: 10px;
+}
+.suscribete p{
+    font-family: 'Roboto @300', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.suscribete form{
+    width: 50%;
+    padding: 15px 10px;
+    margin: auto;
+    float: right;
+    text-align: center;
+}
+.suscribete input {
+    width: 280px;
+    padding: 6px;
+    border: none;
+}
+.suscribete input[type="submit"]{
+    width: 100px;
+    background: #F24822;
+    border: none;
+    color: #fff;
+}
+
+.suscribete input[type="submit"]:hover{
+    background: #ff2f00;
+    color: #fff;
+}
+
+.clear{
+    clear: both;
+}
+section{
+    width: 100%;
+    margin: 20px;
+}
+.contenedor{
+    width: 100%;
+}
+.float {
+    margin-left: 10px;
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 10px  10px;
+}
+.float img{
+    width: 150px;
+    margin: 0 auto;
+}
+.float h3 {
+    margin-top: 10px;
+}
+.float div{
+    font-size: 18px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 15px;
+} 
+.parrafo{
+    margin-top: 3px;
+    padding: 5px;
+    font-size: 18px;
+}
+.float2 {
+    width: 60%;
+    float: left;
+    margin: 5px;
+}
+.float2 h3 {
+    padding: 5px;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.float2 img{
+    margin-top: 5px;
+    width: 100%;
+}
+.div2{
+    margin: 10px 30px;
+    padding: 20px;
+    height: auto;
+    color: #fff;
+    background-color: #35424A;
+    float: left;
+    width: 30%;
+}
+.div2 h3{
+    padding: 10px;
+    font-size: 19px;
+}
+.div2 p{
+    padding: 10px;
+    font-size: 18px;
+}
+.parrafo2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: #35424A;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+.titulo-servicio{
+    margin-left: 16px;
+    font-size: 19px;
+}
+.servicio {
+    width: 60%;
+    margin: 20px;
+    float: left;
+}
+.servicio div {
+    background: #E6E6E6;
+    width: 100%;
+    float: left;
+    margin: 2px;
+    padding: 10px;
+}
+.servicio h2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 19px;
+}
+.servicio h4{
+    margin: 10px;
+    padding: 10px;
+    font-size: 19px;
+}
+.servicio p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.float2 form{
+    width: 100%;
+    margin: 20px;
+}
+.float2 input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 90%;
+    padding: 10px;
+    border: none;
+}
+.float2 h2 {
+    font-size: 25px;
+    margin: auto;
+    padding: 5px 0px;
+}
+.float2 label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.float2 textarea{
+    width: 90%;
+    border: none;
+}
+.float2 input[type="submit"]{
+    padding: 10px;
+    border: none;
+    background: #F24822;
+    color: #fff;
+}
+.float2 input[type="submit"]:hover{
+    background: #ff2f00;
+    color: #fff;
+}
+.mapa {
+    float: left;
+    width: 30%;
+}
+
+.mapa h3{
+    font-size: 19px;
+    margin-top: 30px;
+}
+.mapa p{
+    width: 100%;
+    background: #35424A;
+    color: #fff;
+    padding: 25px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.mapa img{
+    width: 100%;
+    margin: 10px 0;
+}
+footer{
+    background-color: #1293D4;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; 
+    padding: 20px;
+}
+footer p{
+    padding: 30px;
+    color: #fff;
+    font-size: 15px;
+}
